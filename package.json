@@ -1,5 +1,5 @@
 {
-  "name": "chain function",
+  "name": "js-chain-func",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,7 @@
     "test": "jest",
     "lint": "eslint ./src",
     "lint:watch": "esw --watch",
-    "stylelint": "stylelint './src/**/*.css'",
-    "precommit": "npm run lint && npm run stylelint",
-    "prepush": "npm run test"
+    "stylelint": "stylelint './src/**/*.css'"
   },
   "repository": {
     "type": "git",
@@ -38,5 +36,8 @@
     "webpack": "^4.22.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@webassemblyjs/ast": "^1.7.11"
   }
 }
